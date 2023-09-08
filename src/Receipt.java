@@ -9,7 +9,7 @@ public class Receipt {
          * Bed Frame = £199.99
          * Headboard = £69.99
          * Total = £569.97
-         * Use double or float for converting
+         * Use double or float variable for converting
          * Set the coversions first, before println
          */
 
