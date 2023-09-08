@@ -12,8 +12,8 @@ public class Anagram {
         System.out.println("Beautiful = blue fatui ");
         System.out.println("Adventure = aunt verde ");
         System.out.println("Chocolate = Cathe cool ");
-        System.out.println("Dangerous =  anger duos ");
-        System.out.println("Essential = its Selena ");
+        System.out.println("Dangerous = anger duos ");
+        System.out.println("Beautiful = its Selena ");
 
     }
 }
