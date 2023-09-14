@@ -15,6 +15,6 @@ public class Lesson2ProgrammingExercise2 {
         System.out.println("Total " + (num1 * num2));
         System.out.println("Total " + (num1 / num2));
         System.out.println("Total " + (num1 % num2));
-        System.out.println("Total " + Math.pow (num1, num2));
+        System.out.println("Total " + Math.pow(num1, num2));
     }
 }
