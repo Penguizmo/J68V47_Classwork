@@ -1,27 +1,36 @@
 import java.util.Scanner;
+
 public class Exercise_2_L3E2 {
-    //Edited as part of L4E2
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("What is the capital of Spain? ");
-        String Answer1 = input.nextLine();
-        System.out.println(Answer1.toLowerCase().contains("madrid" ));
+        String answer1 = input.nextLine().toLowerCase();
 
-        // I changed lines 8 and 9 to match your code
-        // I left my original code in lines 13 - 21 so that you can see my work.
-        // Both gave the same results
+        if (answer1.equals("madrid")) {
+            System.out.println("Correct! The answer is Madrid.");
+            //I used the }else{ command from slide 15 to set the difference from if command
+        } else {
+            System.out.println("Sorry, the correct answer is Madrid.");
+        }
 
         System.out.println("What is the capital of England? ");
-        String England = input.nextLine();
-        System.out.println(England.toLowerCase());
-        System.out.println(England.contains("London"));
+        String answer2 = input.nextLine().toLowerCase();
+
+        if (answer2.equals("london")) {
+            System.out.println("Correct! The answer is London.");
+        } else {
+            System.out.println("Sorry, the correct answer is London.");
+        }
 
         System.out.println("What is the capital of France? ");
-        String France = input.nextLine();
-        System.out.println(France.toLowerCase());
-        System.out.println(France.contains("Paris"));
+        String answer3 = input.nextLine().toLowerCase();
 
+        if (answer3.equals("paris")) {
+            System.out.println("Correct! The answer is Paris.");
+        } else {
+            System.out.println("Sorry, the correct answer is Paris.");
+        }
     }
 }
