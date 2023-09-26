@@ -27,6 +27,6 @@ public class Exercise_3_L3E3 {
 
         double monthlyPayment = loanAmount * (monthlyInterestRate / (1 - Math.pow(1 + monthlyInterestRate, -numMonths)));
 
-        System.out.format("Monthly Payment for this loan = %.2f\n", monthlyPayment);
+        System.out.format("Monthly Payment for this loan = £%.2f\n", monthlyPayment);
     }
 }
