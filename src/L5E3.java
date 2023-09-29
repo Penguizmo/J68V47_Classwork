@@ -2,43 +2,30 @@ import java.util.Scanner;
 
 public class L5E3 {
     public static void main(String[] args) {
-        // Create a question Scanner
-        // Create an answer Scanner
-        Scanner question = new Scanner(System.in);
-        Scanner answer = new Scanner(System.in);
-
-        // Create string variables for 10 questions, using L3E2 as an example
-        // Then set if else questions
-
-        System.out.println("What is 1 + 1? ");
-        String question1 = question.nextLine();
-
-        System.out.println("What is 1 + 2? ");
-        String question2 = question.nextLine();
-
-        System.out.println("What is 1 + 3? ");
-        String question3 = question.nextLine();
-
-        System.out.println("What is 1 + 4? ");
-        String question4 = question.nextLine();
-
-        System.out.println("What is 1 + 5? ");
-        String question5 = question.nextLine();
-
-        System.out.println("What is 1 + 6? ");
-        String question6 = question.nextLine();
-
-        System.out.println("What is 1 + 7? ");
-        String question7 = question.nextLine()();
-
-        System.out.println("What is 1 + 8? ");
-        String question8 = question.nextLine();
-
-        System.out.println("What is 1 + 9? ");
-        String question9 = question.nextLine();
-
-        System.out.println("What is 1 + 10? ");
-        String question10 = question.nextLine();
-
-        // Start a score int as 0
+        Scanner scanner = new Scanner(System.in);
         int score = 0;
+
+        System.out.println("Welcome to the Math Quiz Game!");
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Question " + i + ":");
+
+            int num1 = (int) (Math.random() * 10); // Generate a random number between 0 and 9
+            int num2 = (int) (Math.random() * 10);
+
+            System.out.print(num1 + " + " + num2 + " = ");
+            int userAnswer = scanner.nextInt();
+
+            int correctAnswer = num1 + num2;
+
+            if (userAnswer == correctAnswer) {
+                System.out.println("Correct!");
+                score++;
+            } else {
+                System.out.println("Incorrect. The correct answer is " + correctAnswer);
+            }
+        }
+
+        System.out.println("Quiz is over. Your score is: " + score + "/10");
+    }
+}
