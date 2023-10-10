@@ -23,7 +23,7 @@ public class L4E1 {
         System.out.println(firstName.substring(0, 1)  +  lastName);
         System.out.format("Order Total £%.2f %n", value);
         System.out.format("Deposit Paid £%.2f %n", deposit);
-        System.out.format("Remainder £%.2f %n", (value - deposit)); //Fixed an issue where I had a , instead of .
+        System.out.format("Remainder £%.2f %n", (value - deposit)); //Fixed an issue where I had a, instead of .
 
         if (deposit > 100) {
             System.out.println("Congratulation, you win a free toaster!"); //Changed the text and realigned it to the 2nd bottom line
