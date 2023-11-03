@@ -18,11 +18,11 @@ public class L7E2 {
         }
         return number;
     }
+
     public static void main(String[] args) {
         int num1 = getValidNumber("What is the first number? ");
         int num2 = getValidNumber("What is the second number? ");
 
-        // Added "Total " after first ( so it shows at the start and what the numbers mean
         System.out.format("The sum of %d and %d is %d", num1, num2, calculateSum(num1, num2));
     }
 }
