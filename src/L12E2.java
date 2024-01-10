@@ -52,5 +52,4 @@ public class L12E2 {
             displayStudent(thisStudent);
         }
     }
-
 }
