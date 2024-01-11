@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.Scanner;
 
-public class L5E3 {
+public class L5E3_Maths_Quiz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = 0;

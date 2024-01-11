@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.Scanner;
 
-public class L5E1 {
+public class L5E1_Times_Table {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
