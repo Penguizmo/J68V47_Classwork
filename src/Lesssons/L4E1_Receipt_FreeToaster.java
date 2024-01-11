@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.*;
-public class L4E1 {
+public class L4E1_Receipt_FreeToaster {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class L4E1 {
         System.out.print("Enter the total value of your order: £"); // Added £
         float value = scanner.nextFloat();
 
-        System.out.print("Enter the total amount you wish to play as a deposit: £"); // Added £
+        System.out.print("Enter the total amount you wish to pay as a deposit: £"); // Added £
         float deposit = scanner2.nextFloat();
 
         //Add Receipt display code bellow this line
