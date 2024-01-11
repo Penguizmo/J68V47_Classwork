@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.Scanner;
 
-public class L9E1 {
+public class L9E1_ErrorHandling_Catch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
