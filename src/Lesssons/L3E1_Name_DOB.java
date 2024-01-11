@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.Scanner;
-public class Exercise_1_L3E1 {
+public class L3E1_Name_DOB {
     public static void main(String[] args) {
 
         // Set the first 3 lines to gather the information

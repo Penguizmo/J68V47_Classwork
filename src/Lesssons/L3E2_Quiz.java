@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.Scanner;
 
-public class Exercise_2_L3E2 {
+public class L3E2_Quiz {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
