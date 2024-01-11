@@ -1,6 +1,6 @@
 package Lesssons;
 
-public class Anagram {
+public class L1E2_Anagram {
     /** Anagrams
      * Beautiful = blue fatui
      * Adventure = aunt verde

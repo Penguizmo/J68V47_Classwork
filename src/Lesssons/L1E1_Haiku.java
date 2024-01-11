@@ -1,6 +1,6 @@
 package Lesssons;
 
-public class Haiku {
+public class L1E1_Haiku {
     public static void main(String[] args) {
 
         System.out.println("Hurricane looms near, ");
