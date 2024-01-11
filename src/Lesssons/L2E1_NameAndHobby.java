@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.*;
-public class Lesson2ProgrammingExercise {
+public class L2E1_NameAndHobby {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
