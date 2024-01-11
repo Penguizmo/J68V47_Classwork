@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.*;
-public class L2E1_NameAndHobby {
+public class L2E1_Strings_DisplayingMessages {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

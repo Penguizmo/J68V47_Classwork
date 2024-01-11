@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.Scanner;
 
-public class L6E3_MathsQuiz_3Lives {
+public class L6E3_For_IfElse_MathsQuiz_3Lives {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = 0;

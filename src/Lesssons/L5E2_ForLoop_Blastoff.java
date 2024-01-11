@@ -1,6 +1,6 @@
 package Lesssons;
 
-public class L5E2_Blastoff {
+public class L5E2_ForLoop_Blastoff {
     public static void main(String[] args) {
             //No need for scanner as there is no user input required
             //Reverse the code from slide 13 as sum is going negative

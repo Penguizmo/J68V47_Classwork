@@ -1,8 +1,6 @@
 package Lesssons;
 
-import java.util.*;
-
-public class L8E1 {
+public class L8E1_Arrays_Strings {
 
     public static void main(String[] args) {
 

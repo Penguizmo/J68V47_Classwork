@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.Scanner;
-public class L4E3_Shipping_Charges {
+public class L4E3_IfandElseStatement_ShippingCharges {
     public static void main(String[] args) {
         Scanner amount = new Scanner(System.in);
 

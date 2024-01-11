@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.Scanner;
-public class L3E1_Name_DOB {
+public class L3E1_StringFunction_NameAndDOB {
     public static void main(String[] args) {
 
         // Set the first 3 lines to gather the information

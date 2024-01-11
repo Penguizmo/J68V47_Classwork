@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.*;
-public class L4E1_Receipt_FreeToaster {
+public class L4E1_IfStatement_ReceiptFreeToaster {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);

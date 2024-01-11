@@ -1,6 +1,6 @@
 package Lesssons;
 
-public class L6E1_While_Loop_Numbers {
+public class L6E1_WhileLoop_Integer_Numbers {
     public static void main(String[] args) {
 
         int count = 10;

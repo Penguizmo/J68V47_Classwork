@@ -1,8 +1,6 @@
 package Lesssons;
 
-import java.util.Scanner;
-
-public class L8E2 {
+public class L8E2_Arrays_Integer {
 
     public static void main(String[] args) {
 

@@ -1,8 +1,7 @@
 package Lesssons;
 
 import java.util.Arrays;
-
-public class L8E3 {
+public class L8E3_Arrays_SizeManagment {
     public static void main(String[] args) {
         // Set up the directions array
         String[] directions = {"Start by exiting the building you are currently in and turning left onto the main road.",

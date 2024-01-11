@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.Scanner;
 
-public class L6E2_WhileLoop_DO_IF_And_Else {
+public class L6E2_WhileLoop_DO_IF_Else {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int option;

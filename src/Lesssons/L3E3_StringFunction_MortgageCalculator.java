@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.Scanner;
-public class L3E3_Mortgage_Calculator {
+public class L3E3_StringFunction_MortgageCalculator {
 
     /**The cost of a loan
      * The interest rate

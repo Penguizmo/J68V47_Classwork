@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.Scanner;
 
-public class L7E1 {
+public class L7E1_Subroutine_PSVshowMenu {
     public static void showMenu(){
         System.out.println("Menu:");
         System.out.println("1. Say 'hello'");

@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.util.*;
 
-public class L7E2 {
+public class L7E2_Different_PSVnames_SumCalculator {
 
     public static int calculateSum(int num1, int num2){
         int result = num1 + num2;
@@ -25,6 +25,6 @@ public class L7E2 {
         int num1 = getValidNumber("What is the first number? ");
         int num2 = getValidNumber("What is the second number? ");
 
-        System.out.format("The sum of %d and %d is %d", num1, num2, calculateSum(num1, num2));
+        System.out.format("The sum of %d + %d is %d", num1, num2, calculateSum(num1, num2));
     }
 }

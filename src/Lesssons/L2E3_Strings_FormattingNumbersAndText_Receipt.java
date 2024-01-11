@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.util.Scanner;
-public class L2E3_Receipt {
+public class L2E3_Strings_FormattingNumbersAndText_Receipt {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
