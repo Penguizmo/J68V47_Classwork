@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.io.*;
 
-public class L11E3 {
+public class L11E3_ReadFiles_DisplayFiles {
     public static void main(String[] args) {
         String filename = "numbers.txt";
 

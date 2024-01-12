@@ -1,7 +1,7 @@
 package Lesssons;
 
 import java.io.*;
-public class L11E2 {
+public class L11E2_ReadingFiles {
     public static void main(String[] args) {
         try {
             FileReader fileReader = new FileReader("times_table.txt");

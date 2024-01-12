@@ -2,7 +2,7 @@ package Lesssons;
 
 import java.io.*;
 
-public class L11E1 {
+public class L11E1_WritingFiles {
     public static void main(String[] args) {
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
